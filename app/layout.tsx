@@ -80,6 +80,27 @@ export default function RootLayout({
                 >
                   shape.network
                 </Link>
+
+                <div className="flex items-center gap-2">
+                  <Link
+                    href="https://x.com/calldata"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-muted-foreground text-sm hover:underline"
+                  >
+                    @calldata
+                  </Link>
+                  ・
+                  <Link
+                    href="https://x.com/williamhzo"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-muted-foreground text-sm hover:underline"
+                  >
+                    @williamhzo
+                  </Link>
+                </div>
+
                 <div className="flex items-center gap-8">
                   <Link
                     href="https://x.com/Shape_L2"
