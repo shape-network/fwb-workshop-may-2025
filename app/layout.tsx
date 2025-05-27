@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Shape <> FWB Workshop, May 28th 2025',
+  title: 'Shape <> FWB Workshop',
   description: 'Shape <> FWB Workshop, May 28th 2025',
   icons: {
     icon: '/favicon.ico',
