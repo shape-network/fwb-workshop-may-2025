@@ -1,14 +1,12 @@
-import { AssemblyItem } from "@/components/assembly-item";
-import { Button } from "@/components/ui/button";
-import { ArrowTopRightIcon } from "@radix-ui/react-icons";
-import Link from "next/link";
+import { AssemblyItem } from '@/components/assembly-item';
+import { Button } from '@/components/ui/button';
+import { ArrowTopRightIcon } from '@radix-ui/react-icons';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="flex min-h-[calc(100vh-200px)] flex-col items-center justify-center space-y-8">
-      <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-        FWB Workshop 2025
-      </h1>
+      <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">FWB Workshop 2025</h1>
 
       <AssemblyItem />
 
