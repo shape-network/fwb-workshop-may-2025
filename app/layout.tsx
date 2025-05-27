@@ -81,7 +81,7 @@ export default function RootLayout({
                   shape.network
                 </Link>
 
-                <div className="flex items-center gap-2">
+                <div className="hidden items-center gap-2 sm:flex">
                   <Link
                     href="https://x.com/calldata"
                     target="_blank"

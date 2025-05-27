@@ -90,7 +90,7 @@ export const AssemblyItem: FC = () => {
         )}
 
         {filteredItems.length > 1 && (
-          <ul className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-4 px-5">
+          <ul className="grid w-full gap-4 px-5 sm:grid-cols-[repeat(auto-fill,minmax(250px,1fr))]">
             {filteredItems.map((item) => (
               <ItemCard key={item.id.toString() + item.tokenId} item={item} />
             ))}
@@ -142,7 +142,7 @@ const Container: FC<{ children: React.ReactNode; className?: string }> = ({
   className,
 }) => {
   return (
-    <ScrollArea className={cn('grid h-[650px] w-full max-w-4xl items-start', className)}>
+    <ScrollArea className={cn('grid w-full max-w-4xl items-start sm:h-[650px]', className)}>
       {children}
     </ScrollArea>
   );
