@@ -13,7 +13,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC, useMemo, useState } from 'react';
 
-const FWB_ITEM_ID = BigInt(5);
+const FWB_ITEM_ID = BigInt(8);
 
 type FilterMode = 'fwb' | 'all';
 
@@ -83,11 +83,9 @@ export const AssemblyItem: FC = () => {
 
         {filteredItems.length === 1 && (
           <ul className="grid w-full place-items-center px-12">
-            <div>
-              {filteredItems.map((item) => (
-                <ItemCard key={item.id.toString() + item.tokenId} item={item} size="large" />
-              ))}
-            </div>
+            {filteredItems.map((item) => (
+              <ItemCard key={item.id.toString() + item.tokenId} item={item} size="large" />
+            ))}
           </ul>
         )}
 
