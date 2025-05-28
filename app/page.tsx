@@ -16,7 +16,7 @@ export default function Home() {
         <Button asChild>
           <Link href="https://github.com/shape-network/fwb-workshop-may-2025">
             <ArrowTopRightIcon className="mr-2 h-4 w-4" />
-            View Source
+            View Repository
           </Link>
         </Button>
         <Button variant="outline" asChild>
