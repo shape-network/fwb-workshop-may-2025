@@ -13,7 +13,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC, useMemo, useState } from 'react';
 
-const FWB_ITEM_ID = BigInt(16);
+const FWB_ITEM_ID = BigInt(18);
 
 type FilterMode = 'fwb' | 'all';
 
@@ -24,7 +24,7 @@ export const AssemblyItem: FC = () => {
   const filteredItems = useMemo(() => {
     if (!items) return [];
     if (filterMode === 'all') return items;
-    return items.filter((item) => item.id === FWB_ITEM_ID);
+    return items.filter((item) => item.id >= FWB_ITEM_ID);
   }, [items, filterMode]);
 
   if (isLoading) {
