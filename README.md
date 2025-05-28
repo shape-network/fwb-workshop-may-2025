@@ -25,12 +25,6 @@ Welcome to the Friends with Builders x Shape workshop!
 - **Testnet OTOM**: [testnet.otom.xyz](https://testnet.otom.xyz/)
 - **Mainnet OTOM**: [otom.xyz](https://otom.xyz/)
 
-### Testnet Resources
-
-- **Alchemy Shape Sepolia Faucet**: [alchemy.com/faucets/shape-sepolia](https://www.alchemy.com/faucets/shape-sepolia)
-- **OP Shape Sepolia Faucet**: [console.optimism.io/faucet](https://console.optimism.io/faucet)
-- **Shape Sepolia Explorer**: https://sepolia.shapescan.xyz/token/0x489B90261Ccf74E4D3883fd8B2C6A19f6E8B2b06
-
 ### Other Resources
 
 - **Alchemy Shape Sepolia Faucet**: [alchemy.com/faucets/shape-sepolia](https://www.alchemy.com/faucets/shape-sepolia)
