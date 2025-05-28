@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'oldschool.runescape.wiki',
       },
+      {
+        protocol: 'https',
+        hostname: 'arweave.net',
+      },
     ],
   },
 };
