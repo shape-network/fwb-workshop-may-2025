@@ -2,13 +2,6 @@
 
 Welcome to the Friends with Builders x Shape workshop!
 
-## 🚀 Quick Start
-
-1. Clone this repository
-2. Install dependencies: `yarn install`
-3. Copy environment variables: `cp .env-example .env` and add your own
-4. Start the development server: `yarn dev`
-
 ## 🔗 Useful Links
 
 ### Documentation & Resources
@@ -43,6 +36,13 @@ Welcome to the Friends with Builders x Shape workshop!
 - What is Shape, composable experiences
 - Crafting fully customizable & reusable items
 - What's next, contribute & links
+
+## 🚀 Quick Start
+
+1. Clone this repository
+2. Install dependencies: `yarn install`
+3. Copy environment variables: `cp .env-example .env` and add your own
+4. Start the development server: `yarn dev`
 
 ---
 
