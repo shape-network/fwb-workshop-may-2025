@@ -115,7 +115,7 @@ const ItemCard: FC<{ item: OwnedItem; size?: 'normal' | 'large' }> = ({
         key={item.id.toString() + item.tokenId}
         className={cn(
           'pt-4 pb-2 transition-transform duration-300 group-hover:scale-[103%]',
-          size === 'large' && 'px-20 pt-12 pb-8'
+          size === 'large' && 'sm:min-w-md'
         )}
       >
         <CardContent className="flex items-center justify-center">
@@ -124,12 +124,12 @@ const ItemCard: FC<{ item: OwnedItem; size?: 'normal' | 'large' }> = ({
             alt={item.name}
             width={250}
             height={250}
-            className={cn(size === 'large' && 'mb-12')}
+            className={cn(size === 'large' && 'mb-12 w-full')}
           />
         </CardContent>
 
         <div className="flex flex-row justify-between px-4">
-          <CardTitle className="text-sm font-normal">{item.name}</CardTitle>
+          <CardTitle>{item.name}</CardTitle>
           <CardDescription>id: {item.id.toString()}</CardDescription>
         </div>
       </Card>
