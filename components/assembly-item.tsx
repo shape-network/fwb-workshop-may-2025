@@ -13,7 +13,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC, useMemo, useState } from 'react';
 
-const FWB_ITEM_ID = BigInt(15);
+const FWB_ITEM_ID = BigInt(16);
 
 type FilterMode = 'fwb' | 'all';
 
