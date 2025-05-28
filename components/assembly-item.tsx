@@ -24,7 +24,7 @@ export const AssemblyItem: FC = () => {
   const filteredItems = useMemo(() => {
     if (!items) return [];
     if (filterMode === 'all') return items;
-    return items.filter((item) => item.id >= FWB_ITEM_ID);
+    return items.filter((item) => item.id === FWB_ITEM_ID);
   }, [items, filterMode]);
 
   if (isLoading) {
