@@ -34,7 +34,7 @@ Welcome to the Friends with Builders x Shape workshop!
 
 ### Social Links
 
-- **Shape L2**: [@Shape_L2](https://x.com/Shape_L2)
+- **Shape**: [@Shape_L2](https://x.com/Shape_L2)
 - **Calldata**: [@calldata](https://x.com/calldata)
 - **William**: [@williamhzo](https://x.com/williamhzo)
 
