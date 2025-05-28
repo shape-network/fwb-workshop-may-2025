@@ -13,7 +13,7 @@ Welcome to the Friends with Builders x Shape workshop!
 
 ### Documentation & Resources
 
-- **Presentation**: todo, add PDF
+- **Presentation**: [Shape FWB Workshop May 28th.pdf](https://github.com/shape-network/fwb-workshop-may-2025/raw/main/public/presentation.pdf)
 - **Assembly Documentation**: [docs.shape.network/building-on-shape/onchain-compatible/assembly](https://docs.shape.network/building-on-shape/onchain-compatible/assembly)
 - **Assembly Repo**: [github.com/shape-network/assembly](https://github.com/shape-network/assembly)
 
@@ -42,7 +42,7 @@ Welcome to the Friends with Builders x Shape workshop!
 
 - What is Shape, composable experiences
 - Crafting fully customizable & reusable items
-- What’s next, contribute & links
+- What's next, contribute & links
 
 ---
 
