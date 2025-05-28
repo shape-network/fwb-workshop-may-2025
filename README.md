@@ -31,12 +31,6 @@ Welcome to the Friends with Builders x Shape workshop!
 - **Calldata**: [@calldata](https://x.com/calldata)
 - **William**: [@williamhzo](https://x.com/williamhzo)
 
-## 📝 Workshop Agenda
-
-- What is Shape, composable experiences
-- Crafting fully customizable & reusable items
-- What's next, contribute & links
-
 ## 🚀 Quick Start
 
 1. Clone this repository
